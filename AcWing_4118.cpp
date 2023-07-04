@@ -1,3 +1,4 @@
+// AcWing 4118. 狗和猫  https://www.acwing.com/problem/content/4121/
 #include <stdio.h>
 #include <iostream>
 using namespace std;
