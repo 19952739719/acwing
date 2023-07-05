@@ -1,4 +1,11 @@
 // AcWing 4443. 无限区域  https://www.acwing.com/problem/content/description/4446/
+/*
+    目前该代码已通过测试样例
+    输入半径 A，B之后，直接while(R)，记录下 所有R * R 的和，要注意可能会超范围 所以用long long是最稳妥的。随后就是对R 的处理，难度不大
+
+可优化点(?)
+    写了下数学公式 发现其实就是 类似等比数列求和，但还没有写完
+*/
 #include<stdio.h>
 #include<iostream>
 #include<math.h>

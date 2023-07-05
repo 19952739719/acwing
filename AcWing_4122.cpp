@@ -1,4 +1,11 @@
 // AcWing 4122. 字符串转换  https://www.acwing.com/problem/content/4125/
+/*
+    目前该代码已通过全部测试样例
+    但在头尾判断时候，用了四个if语句，然后使用了二分查找，寻找距离最近的
+
+优化点：
+    可以在输入完成后，直接遍历26个字母，保存每个字母到目标字符的最短距离，然后 遍历输入的字符串，直接输出
+*/
 #include<stdio.h>
 #include<iostream>
 #include<math.h>
